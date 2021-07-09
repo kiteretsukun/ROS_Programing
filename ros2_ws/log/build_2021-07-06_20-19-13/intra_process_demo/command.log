@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/intra_process_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/demos/intra_process_demo -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/intra_process_demo
+Invoked command in '/home/ros2_ws/build/intra_process_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/demos/intra_process_demo -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/intra_process_demo
+Invoking command in '/home/ros2_ws/build/intra_process_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/intra_process_demo -- -j4 -l4
+Invoked command in '/home/ros2_ws/build/intra_process_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/intra_process_demo -- -j4 -l4
+Invoking command in '/home/ros2_ws/build/intra_process_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/intra_process_demo
+Invoked command in '/home/ros2_ws/build/intra_process_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/intra_process_demo

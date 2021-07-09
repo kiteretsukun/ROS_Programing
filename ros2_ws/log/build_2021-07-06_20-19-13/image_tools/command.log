@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/image_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/demos/image_tools -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/image_tools
+Invoked command in '/home/ros2_ws/build/image_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/demos/image_tools -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/image_tools
+Invoking command in '/home/ros2_ws/build/image_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/image_tools -- -j4 -l4
+Invoked command in '/home/ros2_ws/build/image_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/image_tools -- -j4 -l4
+Invoking command in '/home/ros2_ws/build/image_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/image_tools
+Invoked command in '/home/ros2_ws/build/image_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/image_tools

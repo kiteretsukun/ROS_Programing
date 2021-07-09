@@ -1,0 +1,52 @@
+[0.227s] Invoking command in '/home/ros2_ws/src/demos/quality_of_service_demo/rclpy': PYTHONPATH=/home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/quality_of_service_demo_py build --build-base /home/ros2_ws/build/quality_of_service_demo_py/build install --prefix /home/ros2_ws/install/quality_of_service_demo_py --record /home/ros2_ws/build/quality_of_service_demo_py/install.log --single-version-externally-managed
+[0.413s] running egg_info
+[0.414s] creating ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info
+[0.415s] writing ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/PKG-INFO
+[0.415s] writing dependency_links to ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/dependency_links.txt
+[0.415s] writing entry points to ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/entry_points.txt
+[0.416s] writing requirements to ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/requires.txt
+[0.416s] writing top-level names to ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/top_level.txt
+[0.420s] writing manifest file '../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/SOURCES.txt'
+[0.466s] reading manifest file '../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/SOURCES.txt'
+[0.468s] writing manifest file '../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info/SOURCES.txt'
+[0.469s] running build
+[0.469s] running build_py
+[0.470s] creating /home/ros2_ws/build/quality_of_service_demo_py/build
+[0.471s] creating /home/ros2_ws/build/quality_of_service_demo_py/build/lib
+[0.471s] creating /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.472s] copying quality_of_service_demo_py/common_nodes.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.473s] copying quality_of_service_demo_py/liveliness.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.474s] copying quality_of_service_demo_py/incompatible_qos.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.474s] copying quality_of_service_demo_py/lifespan.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.475s] copying quality_of_service_demo_py/deadline.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.475s] copying quality_of_service_demo_py/__init__.py -> /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py
+[0.476s] running install
+[0.477s] running install_lib
+[0.478s] creating /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.481s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/common_nodes.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.482s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/liveliness.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.482s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/incompatible_qos.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.483s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/lifespan.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.484s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/deadline.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.485s] copying /home/ros2_ws/build/quality_of_service_demo_py/build/lib/quality_of_service_demo_py/__init__.py -> /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py
+[0.488s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/common_nodes.py to common_nodes.cpython-38.pyc
+[0.491s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/liveliness.py to liveliness.cpython-38.pyc
+[0.493s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/incompatible_qos.py to incompatible_qos.cpython-38.pyc
+[0.494s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/lifespan.py to lifespan.cpython-38.pyc
+[0.496s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/deadline.py to deadline.cpython-38.pyc
+[0.499s] byte-compiling /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py/__init__.py to __init__.cpython-38.pyc
+[0.499s] running install_data
+[0.501s] creating /home/ros2_ws/install/quality_of_service_demo_py/share/ament_index
+[0.501s] creating /home/ros2_ws/install/quality_of_service_demo_py/share/ament_index/resource_index
+[0.501s] creating /home/ros2_ws/install/quality_of_service_demo_py/share/ament_index/resource_index/packages
+[0.501s] copying resource/quality_of_service_demo_py -> /home/ros2_ws/install/quality_of_service_demo_py/share/ament_index/resource_index/packages
+[0.502s] copying package.xml -> /home/ros2_ws/install/quality_of_service_demo_py/share/quality_of_service_demo_py
+[0.502s] running install_egg_info
+[0.505s] Copying ../../../../build/quality_of_service_demo_py/quality_of_service_demo_py.egg-info to /home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality_of_service_demo_py-0.9.3-py3.8.egg-info
+[0.506s] running install_scripts
+[0.529s] Installing deadline script to /home/ros2_ws/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+[0.531s] Installing incompatible_qos script to /home/ros2_ws/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+[0.532s] Installing lifespan script to /home/ros2_ws/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+[0.532s] Installing liveliness script to /home/ros2_ws/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+[0.533s] writing list of installed files to '/home/ros2_ws/build/quality_of_service_demo_py/install.log'
+[0.561s] Invoked command in '/home/ros2_ws/src/demos/quality_of_service_demo/rclpy' returned '0': PYTHONPATH=/home/ros2_ws/install/quality_of_service_demo_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/quality_of_service_demo_py build --build-base /home/ros2_ws/build/quality_of_service_demo_py/build install --prefix /home/ros2_ws/install/quality_of_service_demo_py --record /home/ros2_ws/build/quality_of_service_demo_py/install.log --single-version-externally-managed

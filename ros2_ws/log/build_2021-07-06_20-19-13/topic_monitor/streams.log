@@ -1,0 +1,50 @@
+[0.247s] Invoking command in '/home/ros2_ws/src/demos/topic_monitor': PYTHONPATH=/home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/topic_monitor build --build-base /home/ros2_ws/build/topic_monitor/build install --prefix /home/ros2_ws/install/topic_monitor --record /home/ros2_ws/build/topic_monitor/install.log --single-version-externally-managed
+[0.434s] running egg_info
+[0.436s] creating ../../../build/topic_monitor/topic_monitor.egg-info
+[0.439s] writing ../../../build/topic_monitor/topic_monitor.egg-info/PKG-INFO
+[0.441s] writing dependency_links to ../../../build/topic_monitor/topic_monitor.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../../build/topic_monitor/topic_monitor.egg-info/entry_points.txt
+[0.445s] writing requirements to ../../../build/topic_monitor/topic_monitor.egg-info/requires.txt
+[0.447s] writing top-level names to ../../../build/topic_monitor/topic_monitor.egg-info/top_level.txt
+[0.451s] writing manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[0.492s] reading manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[0.494s] writing manifest file '../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+[0.498s] running build
+[0.498s] running build_py
+[0.499s] creating /home/ros2_ws/build/topic_monitor/build
+[0.501s] creating /home/ros2_ws/build/topic_monitor/build/lib
+[0.503s] creating /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor
+[0.504s] copying topic_monitor/__init__.py -> /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor
+[0.506s] creating /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[0.508s] copying topic_monitor/scripts/data_publisher.py -> /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[0.510s] copying topic_monitor/scripts/topic_monitor.py -> /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[0.512s] copying topic_monitor/scripts/__init__.py -> /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts
+[0.512s] running install
+[0.516s] running install_lib
+[0.518s] creating /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor
+[0.520s] creating /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+[0.522s] copying /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/data_publisher.py -> /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+[0.524s] copying /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/topic_monitor.py -> /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+[0.526s] copying /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/scripts/__init__.py -> /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+[0.526s] copying /home/ros2_ws/build/topic_monitor/build/lib/topic_monitor/__init__.py -> /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor
+[0.529s] byte-compiling /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/data_publisher.py to data_publisher.cpython-38.pyc
+[0.533s] byte-compiling /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/topic_monitor.py to topic_monitor.cpython-38.pyc
+[0.538s] byte-compiling /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/__init__.py to __init__.cpython-38.pyc
+[0.541s] byte-compiling /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/__init__.py to __init__.cpython-38.pyc
+[0.545s] running install_data
+[0.547s] creating /home/ros2_ws/install/topic_monitor/share/ament_index
+[0.548s] creating /home/ros2_ws/install/topic_monitor/share/ament_index/resource_index
+[0.551s] creating /home/ros2_ws/install/topic_monitor/share/ament_index/resource_index/packages
+[0.552s] copying resource/topic_monitor -> /home/ros2_ws/install/topic_monitor/share/ament_index/resource_index/packages
+[0.554s] copying package.xml -> /home/ros2_ws/install/topic_monitor/share/topic_monitor
+[0.554s] creating /home/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[0.557s] copying launch/fragmentation_demo.launch.py -> /home/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[0.558s] copying launch/reliability_demo.launch.py -> /home/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[0.558s] copying launch/depth_demo.launch.py -> /home/ros2_ws/install/topic_monitor/share/topic_monitor/launch
+[0.558s] running install_egg_info
+[0.562s] Copying ../../../build/topic_monitor/topic_monitor.egg-info to /home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages/topic_monitor-0.9.3-py3.8.egg-info
+[0.573s] running install_scripts
+[0.594s] Installing data_publisher script to /home/ros2_ws/install/topic_monitor/lib/topic_monitor
+[0.597s] Installing topic_monitor script to /home/ros2_ws/install/topic_monitor/lib/topic_monitor
+[0.600s] writing list of installed files to '/home/ros2_ws/build/topic_monitor/install.log'
+[0.630s] Invoked command in '/home/ros2_ws/src/demos/topic_monitor' returned '0': PYTHONPATH=/home/ros2_ws/install/topic_monitor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/topic_monitor build --build-base /home/ros2_ws/build/topic_monitor/build install --prefix /home/ros2_ws/install/topic_monitor --record /home/ros2_ws/build/topic_monitor/install.log --single-version-externally-managed
