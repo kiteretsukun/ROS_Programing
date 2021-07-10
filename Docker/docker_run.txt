@@ -1,1 +1,10 @@
 docker container run -v /home/ryotaro/Programing/ros2_ws:/home/ros2_ws -it -d --name foxy ros:foxy bash
+
+docker ps -l
+---
+CONTAINER ID   IMAGE       COMMAND   CREATED      STATUS                  PORTS     NAMES
+2b9fabed268f   ros2:foxy   "bash"    3 days ago   Exited (0) 3 days ago             foxy
+---
+
+docker start foxy
+docker stop foxy
