@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tutorial_interfaces: 1.0.0 (/root/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/tutorial_topic
+[35m[1mScanning dependencies of target subscriber_custom[0m
+[35m[1mScanning dependencies of target publisher[0m
+[35m[1mScanning dependencies of target publisher_custom[0m
+[35m[1mScanning dependencies of target subscriber[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] [32m[1mLinking CXX executable publisher_custom[0m
+[ 75%] Built target publisher
+[ 75%] Built target publisher_custom
+[ 87%] [32m[1mLinking CXX executable subscriber_custom[0m
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber_custom
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2_ws/src/tutorial_package
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/tutorial_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros2_ws/build/tutorial_package
+CMAKE_BINARY_DIR = /root/ros2_ws/build/tutorial_package
 
 # Utility rule file for tutorial_package_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros2_ws/build/tutorial_package
 include CMakeFiles/tutorial_package_uninstall.dir/progress.make
 
 CMakeFiles/tutorial_package_uninstall:
-	/usr/bin/cmake -P /home/ros2_ws/build/tutorial_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/ros2_ws/build/tutorial_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 tutorial_package_uninstall: CMakeFiles/tutorial_package_uninstall
 tutorial_package_uninstall: CMakeFiles/tutorial_package_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/tutorial_package_uninstall.dir/clean:
 .PHONY : CMakeFiles/tutorial_package_uninstall.dir/clean
 
 CMakeFiles/tutorial_package_uninstall.dir/depend:
-	cd /home/ros2_ws/build/tutorial_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2_ws/src/tutorial_package /home/ros2_ws/src/tutorial_package /home/ros2_ws/build/tutorial_package /home/ros2_ws/build/tutorial_package /home/ros2_ws/build/tutorial_package/CMakeFiles/tutorial_package_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/tutorial_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/tutorial_package /root/ros2_ws/src/tutorial_package /root/ros2_ws/build/tutorial_package /root/ros2_ws/build/tutorial_package /root/ros2_ws/build/tutorial_package/CMakeFiles/tutorial_package_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tutorial_package_uninstall.dir/depend
 

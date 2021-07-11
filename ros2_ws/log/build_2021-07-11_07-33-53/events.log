@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000620] (-) JobUnselected: {'identifier': 'tutorial_package'}
+[0.000811] (tutorial_topic) JobQueued: {'identifier': 'tutorial_topic', 'dependencies': OrderedDict([('tutorial_interfaces', '/root/ros2_ws/install/tutorial_interfaces')])}
+[0.000920] (tutorial_topic) JobStarted: {'identifier': 'tutorial_topic'}
+[0.013442] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'cmake'}
+[0.013910] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/tutorial_topic', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/tutorial_topic'], 'cwd': '/root/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'c8900511e3b2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[0.070416] (tutorial_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099648] (-) TimerEvent: {}
+[0.120702] (tutorial_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.125143] (tutorial_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.185898] (tutorial_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.186885] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199735] (-) TimerEvent: {}
+[0.247132] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.259273] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.259503] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.261767] (tutorial_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299823] (-) TimerEvent: {}
+[0.335007] (tutorial_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.335189] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399916] (-) TimerEvent: {}
+[0.412232] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.415845] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.416456] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.418903] (tutorial_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.436358] (tutorial_topic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.436544] (tutorial_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500023] (-) TimerEvent: {}
+[0.586508] (tutorial_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600173] (-) TimerEvent: {}
+[0.624442] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.630881] (tutorial_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.679823] (tutorial_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.695206] (tutorial_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.700248] (-) TimerEvent: {}
+[0.754404] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800339] (-) TimerEvent: {}
+[0.810105] (tutorial_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.811718] (tutorial_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.812697] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.878986] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.879184] (tutorial_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900429] (-) TimerEvent: {}
+[0.945821] (tutorial_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.946000] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.996736] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.996948] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.001248] (-) TimerEvent: {}
+[1.059736] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.061508] (tutorial_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101336] (-) TimerEvent: {}
+[1.201612] (-) TimerEvent: {}
+[1.209150] (tutorial_topic) StdoutLine: {'line': b'-- Found tutorial_interfaces: 1.0.0 (/root/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.300692] (tutorial_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301807] (-) TimerEvent: {}
+[1.319147] (tutorial_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.320683] (tutorial_topic) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/tutorial_topic\n'}
+[1.328523] (tutorial_topic) CommandEnded: {'returncode': 0}
+[1.329227] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'build'}
+[1.331337] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/tutorial_topic', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'c8900511e3b2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[1.368058] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_custom\x1b[0m\n'}
+[1.368798] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[1.372407] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher_custom\x1b[0m\n'}
+[1.375704] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber\x1b[0m\n'}
+[1.402111] (-) TimerEvent: {}
+[1.409688] (tutorial_topic) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o\x1b[0m\n'}
+[1.417210] (tutorial_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o\x1b[0m\n'}
+[1.447993] (tutorial_topic) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.459878] (tutorial_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.502208] (-) TimerEvent: {}
+[1.608163] (-) TimerEvent: {}
+[1.708418] (-) TimerEvent: {}
+[1.808889] (-) TimerEvent: {}
+[1.909827] (-) TimerEvent: {}
+[2.010640] (-) TimerEvent: {}
+[2.111466] (-) TimerEvent: {}
+[2.213504] (-) TimerEvent: {}
+[2.318466] (-) TimerEvent: {}
+[2.419418] (-) TimerEvent: {}
+[2.527310] (-) TimerEvent: {}
+[2.627589] (-) TimerEvent: {}
+[2.728162] (-) TimerEvent: {}
+[2.828452] (-) TimerEvent: {}
+[2.928733] (-) TimerEvent: {}
+[3.029013] (-) TimerEvent: {}
+[3.129291] (-) TimerEvent: {}
+[3.229567] (-) TimerEvent: {}
+[3.329827] (-) TimerEvent: {}
+[3.430088] (-) TimerEvent: {}
+[3.536166] (-) TimerEvent: {}
+[3.640160] (-) TimerEvent: {}
+[3.740624] (-) TimerEvent: {}
+[3.841090] (-) TimerEvent: {}
+[3.941685] (-) TimerEvent: {}
+[4.042198] (-) TimerEvent: {}
+[4.142852] (-) TimerEvent: {}
+[4.243424] (-) TimerEvent: {}
+[4.343996] (-) TimerEvent: {}
+[4.444480] (-) TimerEvent: {}
+[4.544960] (-) TimerEvent: {}
+[4.645457] (-) TimerEvent: {}
+[4.746084] (-) TimerEvent: {}
+[4.846349] (-) TimerEvent: {}
+[4.937708] (tutorial_topic) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[4.943148] (tutorial_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_custom\x1b[0m\n'}
+[4.946447] (-) TimerEvent: {}
+[5.048502] (-) TimerEvent: {}
+[5.148797] (-) TimerEvent: {}
+[5.159824] (tutorial_topic) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[5.188180] (tutorial_topic) StdoutLine: {'line': b'[ 75%] Built target publisher_custom\n'}
+[5.248889] (-) TimerEvent: {}
+[5.349182] (-) TimerEvent: {}
+[5.449453] (-) TimerEvent: {}
+[5.549725] (-) TimerEvent: {}
+[5.650001] (-) TimerEvent: {}
+[5.750247] (-) TimerEvent: {}
+[5.850532] (-) TimerEvent: {}
+[5.950807] (-) TimerEvent: {}
+[6.051076] (-) TimerEvent: {}
+[6.151347] (-) TimerEvent: {}
+[6.251602] (-) TimerEvent: {}
+[6.351926] (-) TimerEvent: {}
+[6.452184] (-) TimerEvent: {}
+[6.484002] (tutorial_topic) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable subscriber_custom\x1b[0m\n'}
+[6.490278] (tutorial_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[6.552320] (-) TimerEvent: {}
+[6.652594] (-) TimerEvent: {}
+[6.739781] (tutorial_topic) StdoutLine: {'line': b'[100%] Built target subscriber_custom\n'}
+[6.744639] (tutorial_topic) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[6.752688] (-) TimerEvent: {}
+[6.755070] (tutorial_topic) CommandEnded: {'returncode': 0}
+[6.781093] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'install'}
+[6.792171] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/tutorial_topic'], 'cwd': '/root/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'c8900511e3b2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[6.799975] (tutorial_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.800204] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher\n'}
+[6.801080] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""\n'}
+[6.801245] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber\n'}
+[6.802840] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""\n'}
+[6.803060] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom\n'}
+[6.803837] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom" to ""\n'}
+[6.804004] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom\n'}
+[6.805712] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom" to ""\n'}
+[6.805964] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic\n'}
+[6.806126] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic\n'}
+[6.806317] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh\n'}
+[6.806473] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv\n'}
+[6.809378] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh\n'}
+[6.810491] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv\n'}
+[6.810691] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash\n'}
+[6.810795] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh\n'}
+[6.810875] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh\n'}
+[6.810950] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv\n'}
+[6.811022] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv\n'}
+[6.811094] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic\n'}
+[6.811174] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake\n'}
+[6.811261] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake\n'}
+[6.811408] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml\n'}
+[6.811593] (tutorial_topic) CommandEnded: {'returncode': 0}
+[6.852880] (-) TimerEvent: {}
+[6.855423] (tutorial_topic) JobEnded: {'identifier': 'tutorial_topic', 'rc': 0}
+[6.856202] (-) EventReactorShutdown: {}

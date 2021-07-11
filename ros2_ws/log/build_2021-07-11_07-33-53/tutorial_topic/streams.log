@@ -1,0 +1,84 @@
+[0.014s] Invoking command in '/root/ros2_ws/build/tutorial_topic': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/tutorial_topic -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/tutorial_topic
+[0.070s] -- The C compiler identification is GNU 9.3.0
+[0.120s] -- The CXX compiler identification is GNU 9.3.0
+[0.124s] -- Check for working C compiler: /usr/bin/cc
+[0.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.186s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.334s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.436s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.586s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.694s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.812s] -- Looking for pthread.h
+[0.878s] -- Looking for pthread.h - found
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.945s] -- Looking for pthread_create in pthreads
+[0.996s] -- Looking for pthread_create in pthreads - not found
+[0.996s] -- Looking for pthread_create in pthread
+[1.059s] -- Looking for pthread_create in pthread - found
+[1.061s] -- Found Threads: TRUE  
+[1.208s] -- Found tutorial_interfaces: 1.0.0 (/root/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.300s] -- Configuring done
+[1.318s] -- Generating done
+[1.320s] -- Build files have been written to: /root/ros2_ws/build/tutorial_topic
+[1.328s] Invoked command in '/root/ros2_ws/build/tutorial_topic' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/tutorial_topic -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/tutorial_topic
+[1.331s] Invoking command in '/root/ros2_ws/build/tutorial_topic': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4
+[1.367s] [35m[1mScanning dependencies of target subscriber_custom[0m
+[1.368s] [35m[1mScanning dependencies of target publisher[0m
+[1.372s] [35m[1mScanning dependencies of target publisher_custom[0m
+[1.375s] [35m[1mScanning dependencies of target subscriber[0m
+[1.409s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o[0m
+[1.416s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[1.447s] [ 37%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[1.459s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[4.937s] [ 62%] [32m[1mLinking CXX executable publisher[0m
+[4.942s] [ 75%] [32m[1mLinking CXX executable publisher_custom[0m
+[5.161s] [ 75%] Built target publisher
+[5.187s] [ 75%] Built target publisher_custom
+[6.483s] [ 87%] [32m[1mLinking CXX executable subscriber_custom[0m
+[6.489s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[6.739s] [100%] Built target subscriber_custom
+[6.744s] [100%] Built target subscriber
+[6.754s] Invoked command in '/root/ros2_ws/build/tutorial_topic' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4
+[6.792s] Invoking command in '/root/ros2_ws/build/tutorial_topic': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/tutorial_topic
+[6.799s] -- Install configuration: ""
+[6.799s] -- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+[6.800s] -- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""
+[6.800s] -- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+[6.802s] -- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""
+[6.802s] -- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom
+[6.803s] -- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom" to ""
+[6.803s] -- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom
+[6.805s] -- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom" to ""
+[6.805s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+[6.805s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+[6.805s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+[6.806s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+[6.809s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+[6.810s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+[6.811s] -- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml
+[6.811s] Invoked command in '/root/ros2_ws/build/tutorial_topic' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/root/ros2_ws/install/tutorial_package:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/tutorial_topic

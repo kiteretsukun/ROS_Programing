@@ -16,7 +16,7 @@ set(_tutorial_package_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT tutorial_package_FIND_QUIETLY)
-  message(STATUS "Found tutorial_package: 0.0.0 (${tutorial_package_DIR})")
+  message(STATUS "Found tutorial_package: 1.0.0 (${tutorial_package_DIR})")
 endif()
 
 # warn when using a deprecated package
