@@ -96,3 +96,27 @@ Server: Docker Engine - Community
   Version:          0.19.0
   GitCommit:        de40ad0
 ```
+
+## Give the authority to create containers to a specific user.
+- You can access the container in Visual Studio Code by giving the permission to create the container to the user you want to use.
+
+- Check the docker group.
+```sh
+$ cat /etc/group | grep docker
+```
+
+- Create a docker group if there is no docker group (run as root).
+```sh
+# sudo groupadd docker
+```
+
+- Add myself to the dokcer group.
+```sh
+$ sudo usermod -aG docker (username)
+```
+
+- Check the docker group.
+```sh
+$ cat /etc/group | grep docker
+docker:x:998:(username)
+```
