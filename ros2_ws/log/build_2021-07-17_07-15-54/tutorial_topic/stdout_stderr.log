@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target subscriber_async[0m
+[ 40%] Built target publisher
+[ 40%] Built target subscriber_custom
+[ 60%] Built target subscriber
+[ 70%] [32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o[0m
+[ 90%] Built target publisher_custom
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:33:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto sub[m[K’
+   33 |     auto [01;31m[Ksub[m[K = g_node->create_subscription<Int32>("number2", 10, onNumber2Subscribed);
+      |          [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void> > > > sub[m[K’
+   32 |     auto [01;36m[Ksub[m[K = g_node->create_subscription<Int32>("number1", 10, onNumber1Subscribed);
+      |          [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/subscriber_async.dir/build.make:63: CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/subscriber_async.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

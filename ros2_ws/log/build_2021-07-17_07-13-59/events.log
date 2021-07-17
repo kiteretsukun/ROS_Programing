@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000212] (-) JobUnselected: {'identifier': 'tutorial_package'}
+[0.000240] (tutorial_topic) JobQueued: {'identifier': 'tutorial_topic', 'dependencies': OrderedDict([('tutorial_interfaces', '/root/ros2_ws/install/tutorial_interfaces')])}
+[0.000470] (tutorial_topic) JobStarted: {'identifier': 'tutorial_topic'}
+[0.013218] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'cmake'}
+[0.013331] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'build'}
+[0.014348] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/tutorial_topic', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/tutorial_topic', 'env': OrderedDict([('HOSTNAME', 'c8900511e3b2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/tutorial_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.044443] (tutorial_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.059139] (tutorial_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099137] (-) TimerEvent: {}
+[0.199416] (-) TimerEvent: {}
+[0.204245] (tutorial_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.245858] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.250584] (tutorial_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299535] (-) TimerEvent: {}
+[0.353666] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399649] (-) TimerEvent: {}
+[0.415059] (tutorial_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.417548] (tutorial_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499786] (-) TimerEvent: {}
+[0.571366] (tutorial_topic) StdoutLine: {'line': b'-- Found tutorial_interfaces: 1.0.0 (/root/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.599902] (-) TimerEvent: {}
+[0.671426] (tutorial_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.699994] (-) TimerEvent: {}
+[0.700231] (tutorial_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.701958] (tutorial_topic) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/tutorial_topic\n'}
+[0.724153] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_async\x1b[0m\n'}
+[0.737054] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[0.739806] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber\x1b[0m\n'}
+[0.739996] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_custom\x1b[0m\n'}
+[0.770426] (tutorial_topic) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o\x1b[0m\n'}
+[0.771109] (tutorial_topic) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.783991] (tutorial_topic) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.800089] (-) TimerEvent: {}
+[0.869994] (tutorial_topic) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o\x1b[0m\n'}
+[0.900182] (-) TimerEvent: {}
+[1.000573] (-) TimerEvent: {}
+[1.100923] (-) TimerEvent: {}
+[1.201202] (-) TimerEvent: {}
+[1.301478] (-) TimerEvent: {}
+[1.401826] (-) TimerEvent: {}
+[1.502167] (-) TimerEvent: {}
+[1.602446] (-) TimerEvent: {}
+[1.702721] (-) TimerEvent: {}
+[1.802996] (-) TimerEvent: {}
+[1.903273] (-) TimerEvent: {}
+[2.003547] (-) TimerEvent: {}
+[2.103819] (-) TimerEvent: {}
+[2.128070] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:21:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid onNumberSubscribed(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.128363] (tutorial_topic) StderrLine: {'line': b'   21 | void \x1b[01;31m\x1b[KonNumberSubscribed\x1b[m\x1b[K(const Int32::SharedPtr msg){\n'}
+[2.128460] (tutorial_topic) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.128540] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:15:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid onNumberSubscribed(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.128618] (tutorial_topic) StderrLine: {'line': b'   15 | void \x1b[01;36m\x1b[KonNumberSubscribed\x1b[m\x1b[K(const Int32::SharedPtr msg){\n'}
+[2.128703] (tutorial_topic) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.139753] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.140029] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:33:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto sub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.140129] (tutorial_topic) StderrLine: {'line': b'   33 |     auto \x1b[01;31m\x1b[Ksub\x1b[m\x1b[K = g_node->create_subscription<Int32>("number2", 10, onNumberSubscribed);\n'}
+[2.140224] (tutorial_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.140308] (tutorial_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:32:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void> > > > sub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.140396] (tutorial_topic) StderrLine: {'line': b'   32 |     auto \x1b[01;36m\x1b[Ksub\x1b[m\x1b[K = g_node->create_subscription<Int32>("number1", 10, onNumberSubscribed);\n'}
+[2.140478] (tutorial_topic) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.203919] (-) TimerEvent: {}
+[2.304189] (-) TimerEvent: {}
+[2.404469] (-) TimerEvent: {}
+[2.504714] (-) TimerEvent: {}
+[2.604991] (-) TimerEvent: {}
+[2.705267] (-) TimerEvent: {}
+[2.805537] (-) TimerEvent: {}
+[2.905811] (-) TimerEvent: {}
+[3.006078] (-) TimerEvent: {}
+[3.106344] (-) TimerEvent: {}
+[3.206620] (-) TimerEvent: {}
+[3.306889] (-) TimerEvent: {}
+[3.407159] (-) TimerEvent: {}
+[3.507439] (-) TimerEvent: {}
+[3.516051] (tutorial_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/subscriber_async.dir/build.make:63: CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o] Error 1\n'}
+[3.516304] (tutorial_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/subscriber_async.dir/all] Error 2\n'}
+[3.516426] (tutorial_topic) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.607566] (-) TimerEvent: {}
+[3.708959] (-) TimerEvent: {}
+[3.725001] (tutorial_topic) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[3.809053] (-) TimerEvent: {}
+[3.909359] (-) TimerEvent: {}
+[3.933687] (tutorial_topic) StdoutLine: {'line': b'[ 50%] Built target publisher\n'}
+[4.009478] (-) TimerEvent: {}
+[4.109769] (-) TimerEvent: {}
+[4.210058] (-) TimerEvent: {}
+[4.310346] (-) TimerEvent: {}
+[4.410633] (-) TimerEvent: {}
+[4.510917] (-) TimerEvent: {}
+[4.611208] (-) TimerEvent: {}
+[4.711492] (-) TimerEvent: {}
+[4.811781] (-) TimerEvent: {}
+[4.912070] (-) TimerEvent: {}
+[5.012356] (-) TimerEvent: {}
+[5.112646] (-) TimerEvent: {}
+[5.212961] (-) TimerEvent: {}
+[5.313264] (-) TimerEvent: {}
+[5.339727] (tutorial_topic) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[5.372180] (tutorial_topic) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable subscriber_custom\x1b[0m\n'}
+[5.413394] (-) TimerEvent: {}
+[5.513706] (-) TimerEvent: {}
+[5.585972] (tutorial_topic) StdoutLine: {'line': b'[ 70%] Built target subscriber\n'}
+[5.613825] (-) TimerEvent: {}
+[5.615456] (tutorial_topic) StdoutLine: {'line': b'[ 70%] Built target subscriber_custom\n'}
+[5.616525] (tutorial_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.618245] (tutorial_topic) CommandEnded: {'returncode': 2}
+[5.657942] (tutorial_topic) JobEnded: {'identifier': 'tutorial_topic', 'rc': 2}
+[5.659644] (-) EventReactorShutdown: {}

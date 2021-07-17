@@ -1,0 +1,24 @@
+[0.021s] Invoking command in '/root/ros2_ws/build/tutorial_topic': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4
+[0.227s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.262s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.287s] Traceback (most recent call last):
+[0.287s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.287s]     from ament_package.templates import get_environment_hook_template_path
+[0.287s] ModuleNotFoundError: No module named 'ament_package'
+[0.290s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.290s]   execute_process(/usr/bin/python3
+[0.290s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.290s]   /root/ros2_ws/build/tutorial_topic/ament_cmake_package_templates/templates.cmake)
+[0.290s]   returned error code 1
+[0.291s] Call Stack (most recent call first):
+[0.291s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.291s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.291s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.291s]   CMakeLists.txt:19 (find_package)
+[0.291s] 
+[0.291s] 
+[0.291s] -- Configuring incomplete, errors occurred!
+[0.291s] See also "/root/ros2_ws/build/tutorial_topic/CMakeFiles/CMakeOutput.log".
+[0.291s] See also "/root/ros2_ws/build/tutorial_topic/CMakeFiles/CMakeError.log".
+[0.299s] make: *** [Makefile:398: cmake_check_build_system] Error 1
+[0.302s] Invoked command in '/root/ros2_ws/build/tutorial_topic' returned '2': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4

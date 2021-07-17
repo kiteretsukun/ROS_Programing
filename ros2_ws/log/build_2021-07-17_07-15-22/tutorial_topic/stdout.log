@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target subscriber_async[0m
+[ 20%] Built target publisher
+[ 40%] Built target subscriber_custom
+[ 60%] Built target subscriber
+[35m[1mScanning dependencies of target publisher_custom[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable publisher_custom[0m
+[ 90%] Built target publisher_custom

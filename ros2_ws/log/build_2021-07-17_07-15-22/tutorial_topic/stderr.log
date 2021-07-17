@@ -1,0 +1,9 @@
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:32:66:[m[K [01;31m[Kerror: [m[K‘[01m[KonNumberSubscribed[m[K’ was not declared in this scope; did you mean ‘[01m[KonNumber2Subscribed[m[K’?
+   32 |     auto sub = g_node->create_subscription<Int32>("number1", 10, [01;31m[KonNumberSubscribed[m[K);
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[KonNumber2Subscribed[m[K
+make[2]: *** [CMakeFiles/subscriber_async.dir/build.make:63: CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/subscriber_async.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

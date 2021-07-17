@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 1.0.0 (/root/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/tutorial_topic
+[35m[1mScanning dependencies of target subscriber_async[0m
+[35m[1mScanning dependencies of target publisher[0m
+[35m[1mScanning dependencies of target subscriber[0m
+[35m[1mScanning dependencies of target subscriber_custom[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o[0m
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:21:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid onNumberSubscribed(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’
+   21 | void [01;31m[KonNumberSubscribed[m[K(const Int32::SharedPtr msg){
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:15:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid onNumberSubscribed(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+   15 | void [01;36m[KonNumberSubscribed[m[K(const Int32::SharedPtr msg){
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:33:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto sub[m[K’
+   33 |     auto [01;31m[Ksub[m[K = g_node->create_subscription<Int32>("number2", 10, onNumberSubscribed);
+      |          [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Int32_<std::allocator<void> >, std::allocator<void> > > > sub[m[K’
+   32 |     auto [01;36m[Ksub[m[K = g_node->create_subscription<Int32>("number1", 10, onNumberSubscribed);
+      |          [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/subscriber_async.dir/build.make:63: CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/subscriber_async.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 50%] [32m[1mLinking CXX executable publisher[0m
+[ 50%] Built target publisher
+[ 60%] [32m[1mLinking CXX executable subscriber[0m
+[ 70%] [32m[1mLinking CXX executable subscriber_custom[0m
+[ 70%] Built target subscriber
+[ 70%] Built target subscriber_custom
+make: *** [Makefile:141: all] Error 2

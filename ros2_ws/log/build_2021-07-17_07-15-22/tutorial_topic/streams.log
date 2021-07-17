@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/root/ros2_ws/build/tutorial_topic': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4
+[0.058s] [35m[1mScanning dependencies of target subscriber_async[0m
+[0.071s] [ 20%] Built target publisher
+[0.077s] [ 40%] Built target subscriber_custom
+[0.078s] [ 60%] Built target subscriber
+[0.088s] [35m[1mScanning dependencies of target publisher_custom[0m
+[0.092s] [ 70%] [32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o[0m
+[0.119s] [ 80%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[1.256s] [01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.256s] [01m[K/root/ros2_ws/src/tutorial_topic/src/subscriber_async.cpp:32:66:[m[K [01;31m[Kerror: [m[K‘[01m[KonNumberSubscribed[m[K’ was not declared in this scope; did you mean ‘[01m[KonNumber2Subscribed[m[K’?
+[1.256s]    32 |     auto sub = g_node->create_subscription<Int32>("number1", 10, [01;31m[KonNumberSubscribed[m[K);
+[1.257s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.257s]       |                                                                  [32m[KonNumber2Subscribed[m[K
+[1.610s] make[2]: *** [CMakeFiles/subscriber_async.dir/build.make:63: CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o] Error 1
+[1.611s] make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/subscriber_async.dir/all] Error 2
+[1.611s] make[1]: *** Waiting for unfinished jobs....
+[2.620s] [ 90%] [32m[1mLinking CXX executable publisher_custom[0m
+[2.772s] [ 90%] Built target publisher_custom
+[2.773s] make: *** [Makefile:141: all] Error 2
+[2.775s] Invoked command in '/root/ros2_ws/build/tutorial_topic' returned '2': AMENT_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/tutorial_topic -- -j4 -l4

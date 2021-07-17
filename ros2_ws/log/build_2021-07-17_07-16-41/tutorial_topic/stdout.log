@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target subscriber_async[0m
+[ 40%] Built target subscriber_custom
+[ 40%] Built target publisher
+[ 60%] Built target subscriber
+[ 70%] [32mBuilding CXX object CMakeFiles/subscriber_async.dir/src/subscriber_async.cpp.o[0m
+[ 90%] Built target publisher_custom
+[100%] [32m[1mLinking CXX executable subscriber_async[0m
+[100%] Built target subscriber_async
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/publisher_custom" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_custom" to ""
+-- Installing: /root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_async
+-- Set runtime path of "/root/ros2_ws/install/tutorial_topic/lib/tutorial_topic/subscriber_async" to ""
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.sh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/environment/path.dsv
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.bash
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.sh
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.zsh
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/local_setup.dsv
+-- Installing: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.dsv
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake
+-- Up-to-date: /root/ros2_ws/install/tutorial_topic/share/tutorial_topic/package.xml

@@ -23,6 +23,7 @@ find_package(tutorial_interfaces REQUIRED)
 
 # Set target
 set(NODES publisher;subscriber;publisher_custom;subscriber_custom)
+set(NODES ${NODES};subscriber_async)
 foreach(target IN LISTS NODES)
   add_executable(${target} src/${target}.cpp)
   ament_target_dependencies(${target} rclcpp std_msgs tutorial_interfaces)
