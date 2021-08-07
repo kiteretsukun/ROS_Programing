@@ -1,5 +1,4 @@
-# docker build -t ros2:foxy .
-# docker run --rm -it ros2:foxy
+# docker build -t ros2:foxy . 
 
 FROM ubuntu:20.04
 ENV TZ Asia/Tokyo
